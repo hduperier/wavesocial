@@ -20,7 +20,7 @@ class MainViewController: UIViewController {
     // Expand/Collapse the side menu by changing trailing's constant
     private var sideMenuTrailingConstraint: NSLayoutConstraint!
 
-    private var revealSideMenuOnTop: Bool = true
+    private var revealSideMenuOnTop: Bool = false
     
     var gestureEnabled: Bool = true
 
@@ -154,7 +154,7 @@ extension MainViewController: SideMenuViewControllerDelegate {
             self.showViewController(viewController: UINavigationController.self, storyboardId: "SettingsNavID")
         case 6:
             // Like us on facebook
-            let safariVC = SFSafariViewController(url: URL(string: "https://www.facebook.com/johncodeos")!)
+            let safariVC = SFSafariViewController(url: URL(string: "")!)
             present(safariVC, animated: true)
         default:
             break

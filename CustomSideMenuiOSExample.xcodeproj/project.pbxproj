@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B9AFAD2B26EFCABA0040D0CC /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AFAD2A26EFCABA0040D0CC /* Extension.swift */; };
+		B9AFAD2D26EFCAE10040D0CC /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AFAD2C26EFCAE10040D0CC /* DatabaseManager.swift */; };
+		B9AFAD3026EFCB810040D0CC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AFAD2F26EFCB810040D0CC /* LoginViewController.swift */; };
+		B9AFAD3226EFCBA40040D0CC /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AFAD3126EFCBA40040D0CC /* RegisterViewController.swift */; };
+		B9AFAD3426EFCCBE0040D0CC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B9AFAD3326EFCCBE0040D0CC /* GoogleService-Info.plist */; };
 		C20E9E2225E1B79B001B1A11 /* SideMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20E9E2125E1B79A001B1A11 /* SideMenuModel.swift */; };
 		C25EF4CE25D067D00086441F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25EF4CD25D067D00086441F /* AppDelegate.swift */; };
 		C25EF4D025D067D00086441F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25EF4CF25D067D00086441F /* SceneDelegate.swift */; };
@@ -26,6 +31,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B9AFAD2A26EFCABA0040D0CC /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		B9AFAD2C26EFCAE10040D0CC /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		B9AFAD2F26EFCB810040D0CC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B9AFAD3126EFCBA40040D0CC /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		B9AFAD3326EFCCBE0040D0CC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C20E9E2125E1B79A001B1A11 /* SideMenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuModel.swift; sourceTree = "<group>"; };
 		C25EF4CA25D067D00086441F /* CustomSideMenuiOSExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomSideMenuiOSExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C25EF4CD25D067D00086441F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +67,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B9AFAD2E26EFCB130040D0CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B9AFAD2A26EFCABA0040D0CC /* Extension.swift */,
+				B9AFAD2C26EFCAE10040D0CC /* DatabaseManager.swift */,
+				C25EF4CD25D067D00086441F /* AppDelegate.swift */,
+				C25EF4CF25D067D00086441F /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		C22DF82F25D1917200FEB621 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -89,15 +110,17 @@
 		C25EF4CC25D067D00086441F /* CustomSideMenuiOSExample */ = {
 			isa = PBXGroup;
 			children = (
+				B9AFAD2E26EFCB130040D0CC /* Resources */,
 				C22DF82F25D1917200FEB621 /* Views */,
 				C25EF4E225D06A2D0086441F /* SideMenu */,
 				C25EF52B25D09AC30086441F /* MainViewController.swift */,
 				C25EF4D325D067D00086441F /* Main.storyboard */,
 				C25EF4D625D067D20086441F /* Assets.xcassets */,
 				C25EF4D825D067D20086441F /* LaunchScreen.storyboard */,
-				C25EF4CD25D067D00086441F /* AppDelegate.swift */,
-				C25EF4CF25D067D00086441F /* SceneDelegate.swift */,
 				C25EF4DB25D067D20086441F /* Info.plist */,
+				B9AFAD2F26EFCB810040D0CC /* LoginViewController.swift */,
+				B9AFAD3126EFCBA40040D0CC /* RegisterViewController.swift */,
+				B9AFAD3326EFCCBE0040D0CC /* GoogleService-Info.plist */,
 			);
 			path = CustomSideMenuiOSExample;
 			sourceTree = "<group>";
@@ -180,6 +203,7 @@
 			files = (
 				C25EF4DA25D067D20086441F /* LaunchScreen.storyboard in Resources */,
 				C25EF4D725D067D20086441F /* Assets.xcassets in Resources */,
+				B9AFAD3426EFCCBE0040D0CC /* GoogleService-Info.plist in Resources */,
 				C25EF4D525D067D00086441F /* Main.storyboard in Resources */,
 				C25EF4EB25D06B6A0086441F /* SideMenuCell.xib in Resources */,
 			);
@@ -195,12 +219,16 @@
 				C25EF4E425D06A430086441F /* SideMenuViewController.swift in Sources */,
 				C2DE6A2F25D2CEA7002B885A /* MusicViewController.swift in Sources */,
 				C2DE6A3B25D2CED4002B885A /* SettingsViewController.swift in Sources */,
+				B9AFAD3026EFCB810040D0CC /* LoginViewController.swift in Sources */,
 				C2DE6A3825D2CEC8002B885A /* ProfileViewController.swift in Sources */,
 				C25EF52C25D09AC30086441F /* MainViewController.swift in Sources */,
 				C25EF4EA25D06B6A0086441F /* SideMenuCell.swift in Sources */,
+				B9AFAD2D26EFCAE10040D0CC /* DatabaseManager.swift in Sources */,
 				C25EF4D225D067D00086441F /* HomeViewController.swift in Sources */,
 				C25EF4CE25D067D00086441F /* AppDelegate.swift in Sources */,
 				C20E9E2225E1B79B001B1A11 /* SideMenuModel.swift in Sources */,
+				B9AFAD3226EFCBA40040D0CC /* RegisterViewController.swift in Sources */,
+				B9AFAD2B26EFCABA0040D0CC /* Extension.swift in Sources */,
 				C25EF4D025D067D00086441F /* SceneDelegate.swift in Sources */,
 				C2DE6A3225D2CEB2002B885A /* MoviesViewController.swift in Sources */,
 				C2DE6A3525D2CEBD002B885A /* BooksViewController.swift in Sources */,
@@ -357,7 +385,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.CustomSideMenuiOSExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harveyduperier.wavesocial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -376,7 +404,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.CustomSideMenuiOSExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harveyduperier.wavesocial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

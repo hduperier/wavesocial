@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>479472718016-kehurnr08djq7bnprds38j7keullpvsb.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.479472718016-kehurnr08djq7bnprds38j7keullpvsb</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDf6E6_e-bW5Vp3fHoKr0Wc2w6ZogbWM8Y</string>
+	<key>GCM_SENDER_ID</key>
+	<string>479472718016</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.harveyduperier.wavesocial</string>
+	<key>PROJECT_ID</key>
+	<string>wavesocial-bb133</string>
+	<key>STORAGE_BUCKET</key>
+	<string>wavesocial-bb133.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:479472718016:ios:12dc5cf279580cafb15d25</string>
+</dict>
+</plist>
