@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Firebase
 
 class HomeViewController: UIViewController {
     @IBOutlet var sideMenuBtn: UIBarButtonItem!

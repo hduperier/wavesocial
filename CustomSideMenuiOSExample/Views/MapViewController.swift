@@ -7,7 +7,7 @@
 
 import UIKit
 
-class BooksViewController: UIViewController {
+class MapViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -23,14 +23,17 @@
 		C25EF4EA25D06B6A0086441F /* SideMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25EF4E825D06B6A0086441F /* SideMenuCell.swift */; };
 		C25EF4EB25D06B6A0086441F /* SideMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C25EF4E925D06B6A0086441F /* SideMenuCell.xib */; };
 		C25EF52C25D09AC30086441F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25EF52B25D09AC30086441F /* MainViewController.swift */; };
-		C2DE6A2F25D2CEA7002B885A /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DE6A2E25D2CEA7002B885A /* MusicViewController.swift */; };
-		C2DE6A3225D2CEB2002B885A /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DE6A3125D2CEB2002B885A /* MoviesViewController.swift */; };
-		C2DE6A3525D2CEBD002B885A /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DE6A3425D2CEBD002B885A /* BooksViewController.swift */; };
+		C2DE6A2F25D2CEA7002B885A /* GroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DE6A2E25D2CEA7002B885A /* GroupsViewController.swift */; };
+		C2DE6A3225D2CEB2002B885A /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DE6A3125D2CEB2002B885A /* FriendsViewController.swift */; };
+		C2DE6A3525D2CEBD002B885A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DE6A3425D2CEBD002B885A /* MapViewController.swift */; };
 		C2DE6A3825D2CEC8002B885A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DE6A3725D2CEC8002B885A /* ProfileViewController.swift */; };
 		C2DE6A3B25D2CED4002B885A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DE6A3A25D2CED4002B885A /* SettingsViewController.swift */; };
+		F6CEA3054A7D097CFA810E3D /* Pods_CustomSideMenuiOSExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5CAD4F53B5490929151BC49 /* Pods_CustomSideMenuiOSExample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C7EFA62E330859C4FCC124A /* Pods-CustomSideMenuiOSExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomSideMenuiOSExample.debug.xcconfig"; path = "Target Support Files/Pods-CustomSideMenuiOSExample/Pods-CustomSideMenuiOSExample.debug.xcconfig"; sourceTree = "<group>"; };
+		A5CAD4F53B5490929151BC49 /* Pods_CustomSideMenuiOSExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomSideMenuiOSExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9AFAD2A26EFCABA0040D0CC /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		B9AFAD2C26EFCAE10040D0CC /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		B9AFAD2F26EFCB810040D0CC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -49,11 +52,12 @@
 		C25EF4E825D06B6A0086441F /* SideMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuCell.swift; sourceTree = "<group>"; };
 		C25EF4E925D06B6A0086441F /* SideMenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SideMenuCell.xib; sourceTree = "<group>"; };
 		C25EF52B25D09AC30086441F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		C2DE6A2E25D2CEA7002B885A /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
-		C2DE6A3125D2CEB2002B885A /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
-		C2DE6A3425D2CEBD002B885A /* BooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
+		C2DE6A2E25D2CEA7002B885A /* GroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsViewController.swift; sourceTree = "<group>"; };
+		C2DE6A3125D2CEB2002B885A /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		C2DE6A3425D2CEBD002B885A /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		C2DE6A3725D2CEC8002B885A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		C2DE6A3A25D2CED4002B885A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		C7152C665E796305976D2656 /* Pods-CustomSideMenuiOSExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomSideMenuiOSExample.release.xcconfig"; path = "Target Support Files/Pods-CustomSideMenuiOSExample/Pods-CustomSideMenuiOSExample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,12 +65,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6CEA3054A7D097CFA810E3D /* Pods_CustomSideMenuiOSExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A6F8ED0FD63BC0EA28B0228B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C7EFA62E330859C4FCC124A /* Pods-CustomSideMenuiOSExample.debug.xcconfig */,
+				C7152C665E796305976D2656 /* Pods-CustomSideMenuiOSExample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B9AFAD2E26EFCB130040D0CC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -82,11 +96,13 @@
 			isa = PBXGroup;
 			children = (
 				C25EF4D125D067D00086441F /* HomeViewController.swift */,
-				C2DE6A2E25D2CEA7002B885A /* MusicViewController.swift */,
-				C2DE6A3125D2CEB2002B885A /* MoviesViewController.swift */,
-				C2DE6A3425D2CEBD002B885A /* BooksViewController.swift */,
+				C2DE6A2E25D2CEA7002B885A /* GroupsViewController.swift */,
+				C2DE6A3125D2CEB2002B885A /* FriendsViewController.swift */,
+				C2DE6A3425D2CEBD002B885A /* MapViewController.swift */,
 				C2DE6A3725D2CEC8002B885A /* ProfileViewController.swift */,
 				C2DE6A3A25D2CED4002B885A /* SettingsViewController.swift */,
+				B9AFAD2F26EFCB810040D0CC /* LoginViewController.swift */,
+				B9AFAD3126EFCBA40040D0CC /* RegisterViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -96,6 +112,8 @@
 			children = (
 				C25EF4CC25D067D00086441F /* CustomSideMenuiOSExample */,
 				C25EF4CB25D067D00086441F /* Products */,
+				A6F8ED0FD63BC0EA28B0228B /* Pods */,
+				C907D174C6C98DF9B75BAABF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,8 +136,6 @@
 				C25EF4D625D067D20086441F /* Assets.xcassets */,
 				C25EF4D825D067D20086441F /* LaunchScreen.storyboard */,
 				C25EF4DB25D067D20086441F /* Info.plist */,
-				B9AFAD2F26EFCB810040D0CC /* LoginViewController.swift */,
-				B9AFAD3126EFCBA40040D0CC /* RegisterViewController.swift */,
 				B9AFAD3326EFCCBE0040D0CC /* GoogleService-Info.plist */,
 			);
 			path = CustomSideMenuiOSExample;
@@ -144,6 +160,14 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
+		C907D174C6C98DF9B75BAABF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5CAD4F53B5490929151BC49 /* Pods_CustomSideMenuiOSExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C25EF4DE25D067D20086441F /* Build configuration list for PBXNativeTarget "CustomSideMenuiOSExample" */;
 			buildPhases = (
+				7A0845842DF31431DBD38B25 /* [CP] Check Pods Manifest.lock */,
 				C25EF4C625D067D00086441F /* Sources */,
 				C25EF4C725D067D00086441F /* Frameworks */,
 				C25EF4C825D067D00086441F /* Resources */,
+				EDB3518AD511407226275CF8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -211,13 +237,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7A0845842DF31431DBD38B25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomSideMenuiOSExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDB3518AD511407226275CF8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustomSideMenuiOSExample/Pods-CustomSideMenuiOSExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustomSideMenuiOSExample/Pods-CustomSideMenuiOSExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CustomSideMenuiOSExample/Pods-CustomSideMenuiOSExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C25EF4C625D067D00086441F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C25EF4E425D06A430086441F /* SideMenuViewController.swift in Sources */,
-				C2DE6A2F25D2CEA7002B885A /* MusicViewController.swift in Sources */,
+				C2DE6A2F25D2CEA7002B885A /* GroupsViewController.swift in Sources */,
 				C2DE6A3B25D2CED4002B885A /* SettingsViewController.swift in Sources */,
 				B9AFAD3026EFCB810040D0CC /* LoginViewController.swift in Sources */,
 				C2DE6A3825D2CEC8002B885A /* ProfileViewController.swift in Sources */,
@@ -230,8 +298,8 @@
 				B9AFAD3226EFCBA40040D0CC /* RegisterViewController.swift in Sources */,
 				B9AFAD2B26EFCABA0040D0CC /* Extension.swift in Sources */,
 				C25EF4D025D067D00086441F /* SceneDelegate.swift in Sources */,
-				C2DE6A3225D2CEB2002B885A /* MoviesViewController.swift in Sources */,
-				C2DE6A3525D2CEBD002B885A /* BooksViewController.swift in Sources */,
+				C2DE6A3225D2CEB2002B885A /* FriendsViewController.swift in Sources */,
+				C2DE6A3525D2CEBD002B885A /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,8 +443,8 @@
 		};
 		C25EF4DF25D067D20086441F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C7EFA62E330859C4FCC124A /* Pods-CustomSideMenuiOSExample.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6P8Q9Q6J62;
@@ -388,14 +456,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.harveyduperier.wavesocial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		C25EF4E025D067D20086441F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7152C665E796305976D2656 /* Pods-CustomSideMenuiOSExample.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6P8Q9Q6J62;
@@ -407,7 +475,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.harveyduperier.wavesocial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

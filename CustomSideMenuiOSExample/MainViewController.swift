@@ -137,24 +137,25 @@ extension MainViewController: SideMenuViewControllerDelegate {
             self.showViewController(viewController: UINavigationController.self, storyboardId: "HomeNavID")
         case 1:
             // Music
-            self.showViewController(viewController: UINavigationController.self, storyboardId: "MusicNavID")
+            self.showViewController(viewController: UINavigationController.self, storyboardId: "GroupsNavID")
         case 2:
             // Movies
-            self.showViewController(viewController: UINavigationController.self, storyboardId: "MoviesNavID")
+            self.showViewController(viewController: UINavigationController.self, storyboardId: "FriendsNavID")
         case 3:
             // Books
-            self.showViewController(viewController: BooksViewController.self, storyboardId: "BooksVCID")
+            self.showViewController(viewController: MapViewController.self, storyboardId: "MapVCID")
         case 4:
             // Profile
-            let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+            /*let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
             let profileModalVC = storyboard.instantiateViewController(withIdentifier: "ProfileModalID") as? ProfileViewController
-            present(profileModalVC!, animated: true, completion: nil)
+            present(profileModalVC!, animated: true, completion: nil)*/
+            self.showViewController(viewController: ProfileViewController.self, storyboardId: "ProfileModalID")
         case 5:
             // Settings
             self.showViewController(viewController: UINavigationController.self, storyboardId: "SettingsNavID")
         case 6:
             // Like us on facebook
-            let safariVC = SFSafariViewController(url: URL(string: "")!)
+            let safariVC = SFSafariViewController(url: URL(string: "https://www.thewavenc.com")!)
             present(safariVC, animated: true)
         default:
             break

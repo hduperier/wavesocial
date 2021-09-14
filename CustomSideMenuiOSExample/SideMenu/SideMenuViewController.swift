@@ -21,13 +21,13 @@ class SideMenuViewController: UIViewController {
     var defaultHighlightedCell: Int = 0
 
     var menu: [SideMenuModel] = [
-        SideMenuModel(icon: UIImage(systemName: "house.fill")!, title: "Home"),
-        SideMenuModel(icon: UIImage(systemName: "music.note")!, title: "Music"),
-        SideMenuModel(icon: UIImage(systemName: "film.fill")!, title: "Movies"),
-        SideMenuModel(icon: UIImage(systemName: "book.fill")!, title: "Books"),
-        SideMenuModel(icon: UIImage(systemName: "person.fill")!, title: "Profile"),
+        SideMenuModel(icon: UIImage(systemName: "house.fill")!, title: "My Night Out"),
+        SideMenuModel(icon: UIImage(systemName: "person.3.fill")!, title: "Groups"),
+        SideMenuModel(icon: UIImage(systemName: "person.2.fill")!, title: "Friends"),
+        SideMenuModel(icon: UIImage(systemName: "map.fill")!, title: "Map"),
+        SideMenuModel(icon: UIImage(systemName: "person.circle.fill")!, title: "Profile"),
         SideMenuModel(icon: UIImage(systemName: "slider.horizontal.3")!, title: "Settings"),
-        SideMenuModel(icon: UIImage(systemName: "hand.thumbsup.fill")!, title: "Like us on facebook")
+        SideMenuModel(icon: UIImage(systemName: "hand.thumbsup.fill")!, title: "Visit our Website")
     ]
 
     override func viewDidLoad() {
@@ -48,7 +48,7 @@ class SideMenuViewController: UIViewController {
         // Footer
         self.footerLabel.textColor = UIColor.white
         self.footerLabel.font = UIFont.systemFont(ofSize: 12, weight: .bold)
-        self.footerLabel.text = "Developed by John Codeos"
+        self.footerLabel.text = "Developed by Harvey Duperier"
 
         // Register TableView Cell
         self.sideMenuTableView.register(SideMenuCell.nib, forCellReuseIdentifier: SideMenuCell.identifier)

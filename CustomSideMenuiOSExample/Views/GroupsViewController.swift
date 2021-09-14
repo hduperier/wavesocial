@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MusicViewController: UIViewController {
+class GroupsViewController: UIViewController {
     @IBOutlet var sideMenuBtn: UIBarButtonItem!
     
     override func viewDidLoad() {

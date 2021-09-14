@@ -160,7 +160,7 @@
         <!--Navigation Controller-->
         <scene sceneID="tml-8w-Htr">
             <objects>
-                <navigationController storyboardIdentifier="MusicNavID" automaticallyAdjustsScrollViewInsets="NO" id="1Qz-93-oW6" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="GroupsNavID" automaticallyAdjustsScrollViewInsets="NO" id="1Qz-93-oW6" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="1Ww-ae-p4l">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -183,7 +183,7 @@
         <!--Music-->
         <scene sceneID="elx-OU-sV1">
             <objects>
-                <viewController id="fQx-6a-sFe" customClass="MusicViewController" customModule="CustomSideMenuiOSExample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="fQx-6a-sFe" customClass="GroupsViewController" customModule="CustomSideMenuiOSExample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Uk8-uy-xcB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -227,7 +227,7 @@
         <!--Navigation Controller-->
         <scene sceneID="gdO-mh-siy">
             <objects>
-                <navigationController storyboardIdentifier="MoviesNavID" automaticallyAdjustsScrollViewInsets="NO" id="rqG-xL-ngM" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="FriendsNavID" automaticallyAdjustsScrollViewInsets="NO" id="rqG-xL-ngM" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="hQw-6Z-qSR">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -250,7 +250,7 @@
         <!--Movies-->
         <scene sceneID="mxu-ze-RAi">
             <objects>
-                <viewController id="NXD-Ae-5wW" customClass="MoviesViewController" customModule="CustomSideMenuiOSExample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="NXD-Ae-5wW" customClass="FriendsViewController" customModule="CustomSideMenuiOSExample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DRL-5d-URr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -280,10 +280,10 @@
             </objects>
             <point key="canvasLocation" x="-481" y="1675"/>
         </scene>
-        <!--Books View Controller-->
+        <!--Map View Controller-->
         <scene sceneID="1v4-u2-Q7b">
             <objects>
-                <viewController storyboardIdentifier="BooksVCID" id="U2T-fV-QiH" customClass="BooksViewController" customModule="CustomSideMenuiOSExample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MapVCID" id="U2T-fV-QiH" customClass="MapViewController" customModule="CustomSideMenuiOSExample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hGX-0d-UAK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -377,7 +377,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="logo" width="500" height="100"/>
+        <image name="logo" width="4167" height="3333"/>
         <image name="menu" width="25" height="25"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

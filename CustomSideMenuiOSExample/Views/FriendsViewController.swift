@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MoviesViewController: UIViewController {
+class FriendsViewController: UIViewController {
     
     @IBOutlet var sideMenuBtn: UIBarButtonItem!
 
