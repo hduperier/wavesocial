@@ -81,20 +81,8 @@
                     <view key="view" contentMode="scaleToFill" id="OYx-GC-B5w">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home Navigation View Controller" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rz6-H2-Qcz">
-                                <rect key="frame" x="51.5" y="375" width="311" height="24"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="mmY-7H-6EV"/>
                         <color key="backgroundColor" red="0.61960784310000006" green="0.10980392160000001" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="rz6-H2-Qcz" firstAttribute="centerX" secondItem="mmY-7H-6EV" secondAttribute="centerX" id="XRF-mh-hgb"/>
-                            <constraint firstItem="rz6-H2-Qcz" firstAttribute="centerY" secondItem="mmY-7H-6EV" secondAttribute="centerY" id="m4x-lU-jI9"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Home" id="bpV-5j-L31">
                         <barButtonItem key="leftBarButtonItem" title="Menu" image="menu" id="Y6c-Lz-ft7"/>

@@ -16,6 +16,7 @@ class FriendsViewController: UIViewController {
         
         sideMenuBtn.target = self.revealViewController()
         sideMenuBtn.action = #selector(self.revealViewController()?.revealSideMenu)
+        title = "Friends"
     }
     
 }

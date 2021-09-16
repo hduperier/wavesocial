@@ -16,5 +16,6 @@ class SettingsViewController: UIViewController {
         
         sideMenuBtn.target = self.revealViewController()
         sideMenuBtn.action = #selector(self.revealViewController()?.revealSideMenu)
+        title = "Settings"
     }
 }

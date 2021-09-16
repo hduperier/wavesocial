@@ -38,10 +38,10 @@ class LoginViewController: UIViewController {
         field.autocapitalizationType = .none
         field.autocorrectionType = .no
         field.returnKeyType = .continue
-        field.layer.cornerRadius = 12
-        field.layer.borderWidth = 1
-        field.layer.borderColor = UIColor.lightGray.cgColor
-        field.placeholder = "Email Address"
+        field.layer.cornerRadius = 5
+        field.layer.borderWidth = 2
+        field.layer.borderColor = UIColor(red: 122/255, green: 75/255, blue: 1, alpha: 1).cgColor
+        field.attributedPlaceholder = NSAttributedString(string: "Email Address", attributes: [NSAttributedString.Key.foregroundColor : UIColor.black])
         field.leftView = UIView(frame: CGRect(x: 0, y: 0, width: 5, height: 0))
         field.leftViewMode = .always
         field.backgroundColor = .white
@@ -53,10 +53,10 @@ class LoginViewController: UIViewController {
         field.autocapitalizationType = .none
         field.autocorrectionType = .no
         field.returnKeyType = .done
-        field.layer.cornerRadius = 12
-        field.layer.borderWidth = 1
-        field.layer.borderColor = UIColor.lightGray.cgColor
-        field.placeholder = "Password"
+        field.layer.cornerRadius = 5
+        field.layer.borderWidth = 2
+        field.layer.borderColor = UIColor(red: 122/255, green: 75/255, blue: 1, alpha: 1).cgColor
+        field.attributedPlaceholder = NSAttributedString(string: "Password", attributes: [NSAttributedString.Key.foregroundColor : UIColor.black])
         field.leftView = UIView(frame: CGRect(x: 0, y: 0, width: 5, height: 0))
         field.leftViewMode = .always
         field.backgroundColor = .white
@@ -67,23 +67,41 @@ class LoginViewController: UIViewController {
     private let loginButton: UIButton = {
         let button = UIButton()
         button.setTitle("Log In", for: .normal)
-        button.backgroundColor = .link
+        button.backgroundColor = UIColor(red: 122/255, green: 75/255, blue: 1, alpha: 1)
         button.setTitleColor(.white, for: .normal)
-        button.layer.cornerRadius = 12
+        button.layer.cornerRadius = 5
         button.layer.masksToBounds = true
         button.titleLabel?.font = .systemFont(ofSize: 20, weight: .bold)
         return button
+    }()
+    
+    private let welcomeText: UILabel = {
+        let welcomeText = UILabel()
+        welcomeText.text = "Welcome Back,"
+        welcomeText.textColor = .white
+        welcomeText.font = welcomeText.font.withSize(24.0)
+        return welcomeText
+    }()
+    
+    private let logInText: UILabel = {
+        let logInText = UILabel()
+        logInText.text = "Log In"
+        logInText.textColor = .white
+        logInText.font = UIFont.boldSystemFont(ofSize: 60)
+        return logInText
     }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "User Log In"
         view.backgroundColor = .white
+        navigationController?.navigationBar.isTranslucent = true
         
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Register",
                                                             style: .done,
                                                             target: self,
                                                             action: #selector(didTapRegister))
+        navigationItem.rightBarButtonItem?.tintColor = .black
         // Adding Target for Log In Button
         loginButton.addTarget(self, action: #selector(loginButtonTapped), for: .touchUpInside)
         
@@ -94,6 +112,8 @@ class LoginViewController: UIViewController {
         view.addSubview(scrollView)
         
         // Placing elements in ScrollView
+        scrollView.addSubview(welcomeText)
+        scrollView.addSubview(logInText)
         scrollView.layer.insertSublayer(gradLayer, at: 0)
         scrollView.addSubview(emailField)
         scrollView.addSubview(passwordField)
@@ -104,10 +124,12 @@ class LoginViewController: UIViewController {
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         scrollView.frame = view.bounds
+        welcomeText.frame = CGRect(x: 20, y: 35, width: scrollView.width-20, height: 30)
+        logInText.frame = CGRect(x: 20, y: welcomeText.bottom-10, width: scrollView.width-20, height: 90)
         gradLayer.frame = CGRect(x: 0, y: 0, width: scrollView.width, height: (scrollView.height/3)-5)
-        emailField.frame = CGRect(x: 30, y: (gradLayer.frame.size.height + gradLayer.frame.origin.y)+20, width: scrollView.width-60, height: 52)
-        passwordField.frame = CGRect(x: 30, y: emailField.bottom+10, width: scrollView.width-60, height: 52)
-        loginButton.frame = CGRect(x: 30, y: passwordField.bottom+10, width: scrollView.width-60, height: 52)
+        emailField.frame = CGRect(x: 20, y: (gradLayer.frame.size.height + gradLayer.frame.origin.y)+20, width: scrollView.width-60, height: 52)
+        passwordField.frame = CGRect(x: 20, y: emailField.bottom+10, width: scrollView.width-60, height: 52)
+        loginButton.frame = CGRect(x: 20, y: passwordField.bottom+10, width: scrollView.width-60, height: 52)
     }
     
     @objc private func loginButtonTapped() {

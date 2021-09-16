@@ -14,6 +14,7 @@ class GroupsViewController: UIViewController {
         super.viewDidLoad()
         self.sideMenuBtn.target = revealViewController()
         self.sideMenuBtn.action = #selector(self.revealViewController()?.revealSideMenu)
+        title = "Groups"
     }
     
     override func viewWillAppear(_ animated: Bool) {

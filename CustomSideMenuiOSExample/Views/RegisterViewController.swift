@@ -152,7 +152,7 @@ class RegisterViewController: UIViewController {
         scrollView.frame = view.bounds
         gradLayer.frame = CGRect(x: 0, y: 0, width: scrollView.width, height: (scrollView.height/3)-5)
         let size = scrollView.width/3
-        imageView.frame = CGRect(x: (scrollView.width-size)/2, y: 80, width: size, height: size)
+        imageView.frame = CGRect(x: ((scrollView.width-size)/2)-10, y: 80, width: size, height: size)
         imageView.layer.cornerRadius = imageView.width/2.0
         firstNameField.frame = CGRect(x: 30, y: (gradLayer.frame.size.height + gradLayer.frame.origin.y)+20, width: scrollView.width-60, height: 52)
         lastNameField.frame = CGRect(x: 30, y: firstNameField.bottom+10, width: scrollView.width-60, height: 52)
